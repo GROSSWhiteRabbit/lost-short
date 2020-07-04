@@ -4,7 +4,7 @@ const elem = document.querySelector('.products__list');
 const iso = new Isotope( elem, {
   // options
   itemSelector: '.products__item',
-  filter: '.popular'
+  filter: '.new'
 });
 
 
