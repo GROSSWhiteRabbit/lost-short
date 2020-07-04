@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'alegreya';
-    src: url('/fonts/alegreyasanssc-black-webfont.woff2') format('woff2'),
-         url('/fonts/alegreyasanssc-black-webfont.woff') format('woff');
+    src: url('./fonts/alegreyasanssc-black-webfont.woff2') format('woff2'),
+         url('./fonts/alegreyasanssc-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -43,7 +43,7 @@ ul > li {
 .hero {
     height: 100vh;
     min-height: 650px;
-    background: url(/images/web-ready/bg/hero.jpg) center center / cover no-repeat;
+    background: url(./images/web-ready/bg/hero.jpg) center center / cover no-repeat;
     position: relative;
     margin-bottom: 130px;
 }   
@@ -109,17 +109,17 @@ ul > li {
     opacity: 1;
 }
 .fade-slider__item--style-tshorts{
-    background-image: url(/images/web-ready/content/hero/slider_pic_1.png);
+    background-image: url(./images/web-ready/content/hero/slider_pic_1.png);
 
 }
 
 .fade-slider__item--style-games{
-    background-image: url(/images/web-ready/content/hero/slider_pic_2.png);
+    background-image: url(./images/web-ready/content/hero/slider_pic_2.png);
 
 }
 
 .fade-slider__item--style-present{
-    background-image: url(/images/web-ready/content/hero/slider_pic_3.png);
+    background-image: url.(/images/web-ready/content/hero/slider_pic_3.png);
 
 }
 
@@ -487,7 +487,7 @@ ul > li {
     display: inline-block;
     width: 625px;
     height: 470px;
-    background: url(/images/web-ready/bg/pattern.png) center center/ cover no-repeat;
+    background: url(./images/web-ready/bg/pattern.png) center center/ cover no-repeat;
     margin-right: 30px;
     position: relative;
     overflow: hidden;
@@ -639,7 +639,7 @@ ul > li {
 .extras__col__social {
     height: 100%;
     
-    background: url(/images/web-ready/bg/pattern.png) center center/ cover no-repeat;
+    background: url(./images/web-ready/bg/pattern.png) center center/ cover no-repeat;
     display: flex;  
     justify-content: center;
     align-items: center;
