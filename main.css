@@ -119,7 +119,7 @@ ul > li {
 }
 
 .fade-slider__item--style-present{
-    background-image: url.(/images/web-ready/content/hero/slider_pic_3.png);
+    background-image: url(./images/web-ready/content/hero/slider_pic_3.png);
 
 }
 
