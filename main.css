@@ -475,12 +475,17 @@ ul > li {
     display: flex;
     margin: 0 auto;
     min-width: 1300px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    
 
 }
 .colections__item {
-        overflow: hidden;
+    overflow: hidden;
+    
+
+    
+    
 }
 
 .colections__link {
@@ -488,7 +493,6 @@ ul > li {
     width: 625px;
     height: 470px;
     background: url(./images/web-ready/bg/pattern.png) center center/ cover no-repeat;
-    margin-right: 30px;
     position: relative;
     overflow: hidden;
     text-decoration: none;
@@ -501,7 +505,7 @@ ul > li {
 }
 
 .colections__item:last-child {
-    margin-right: -30px;
+    margin-right: 0px;
 }   
 .colections__img {
     position: absolute;
