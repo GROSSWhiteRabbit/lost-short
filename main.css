@@ -673,4 +673,249 @@ margin-right: 45px;
     
 }
 
+/*product*/
 
+.hero--product {
+    height: 180px;
+    min-height: 0;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.fade-content--product {
+    height: 125%;
+}
+
+.fade-slider__item--product{
+    background-image: url(./images/web-ready/decor/header-guys.png);
+
+}
+
+.fade-slider__item__text--product {
+    font-size: 30px;
+    line-height: 1.15;
+}
+.fade-slider__item--style-tshorts .fade-slider__item__text__po--product{
+    top: 50%;
+    left: 52%;
+    transform: translate(-164%, -52%);
+}
+.header--product {
+    width: 1300px;
+}
+
+.container__product {
+    width: 1105px;
+    margin: 0 auto;
+}
+
+.product{
+    height: 670px;
+    background: #ffc92f;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.product__img {
+    height: 100%;
+    
+    bottom: 0;
+    width: 500px;
+    margin: 0 20px;
+}
+
+.product__item {
+    background: center center / contain no-repeat;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.product__item--color--black{
+    background-image: url(./images/web-ready/tshirts/tshirt_07.png);
+
+}
+
+.product__item--color--white{
+    background-image: url(./images/web-ready/tshirts/tshirt_08.png);
+    
+}
+
+.product__item--color--green{
+    background-image: url(./images/web-ready/tshirts/tshirt_09.png);
+
+}
+
+.product__item--color--blue{
+    background-image: url(./images/web-ready/tshirts/tshirt_10.png);
+    height: 99.9%
+}
+
+.product__item--color--red{
+    background-image: url(./images/web-ready/tshirts/tshirt_11.png);
+
+}
+
+.product__item--active{
+    display: block;
+}
+.product__desс {
+    background: #fcf5e6;
+    width: 550px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+    box-sizing: border-box;
+}
+
+.product__header {
+    border-bottom: 1px solid #e0d9c8;
+    padding: 28px;
+}
+
+.tshort-type{
+    color: #fcba2e;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.tshort-name {
+    font-family: var(--titlefont);
+    font-size: 47px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.tshort-price {
+    padding: 3px 15px;
+    background: #ffc92f;
+    font-family: var(--titlefont);
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0;
+    display: inline-block;
+    line-height: 1;
+   
+}
+.product-spec {
+    border-bottom: 1px solid #e0d9c8;
+    padding: 28px;
+
+}
+
+.product-spec__text {
+    font-size: 13px;
+    color: var(--black);
+    padding: 8px 0;
+}
+
+.product-choice {
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    box-sizing: border-box;
+    align-items: flex-start;
+}
+
+.product-size {
+    display: flex;
+}
+
+.product-size__item {
+    
+    width: 45px;
+    border: 2px solid #e3ddcb;
+    margin-right: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 0;    
+    font-weight: bold;
+    font-size: 15px;
+    color: #cac3b3;
+    text-transform: uppercase;
+    
+    
+}
+
+.product-size__item:last-child {
+    margin-right: 0;
+
+
+    
+}
+
+.product-size__item--stock {
+    color: #212121;
+}
+.product-size__item--active {
+    border: 0px solid ;
+    background: #ffc92f;    
+}
+
+.product-color{
+   display: flex;
+   height: 20px;
+}
+
+.product-color__item{
+    
+    position: relative;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+    
+}
+
+.product-color__item--black{
+    background: #2f2c25;
+}
+
+.product-color__item--white {
+    background: #fcf5e6;
+    border: 1px solid #cac3b3;
+    padding: 10px;
+    
+}
+
+.product-color__item--green {
+    background: #529029;
+
+    
+}
+.product-color__item--blue {
+    background: #39498d;
+    
+    
+}
+
+.product-color__item--red {
+    background: #d82727;
+}
+
+.product-color__item--active::after{
+    content: "";
+    border-radius: 23px;
+    display: block;
+    padding: 12px;
+    border: 2px solid #ffc92f;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+}
+
+.btn_product{
+    font-size: 28px;
+    padding: 2px 58px;
+}
