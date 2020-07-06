@@ -711,6 +711,7 @@ margin-right: 45px;
 .container__product {
     width: 1105px;
     margin: 0 auto;
+    
 }
 
 .product{
@@ -724,6 +725,7 @@ margin-right: 45px;
     justify-content: space-between;
     box-sizing: border-box;
     overflow: hidden;
+    margin-bottom: 100px;
     
 }
 
@@ -923,3 +925,116 @@ margin-right: 45px;
     font-size: 28px;
     padding: 2px 58px;
 }
+
+/*tables*/
+
+ .tab{
+     overflow: hidden;
+     position: relative;
+ }
+
+
+.tab__item {
+    display: flex;
+    border: 10px solid #ffc92f;
+    width: 100%;
+    
+    box-sizing: border-box;
+    font-size: 14px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity .3s;
+
+    margin-bottom: 80px;
+}
+
+.tab__item--active{
+   position: relative;
+    opacity: 1;
+    
+    
+}
+
+
+.tab__item--sizetab{
+    font-size: 12px;
+}
+
+.tab__part1{
+    padding: 45px 40px;
+    width: 440px;
+    border-right: 1px solid #cac3b3;
+    box-sizing: border-box;
+}
+.tab__part2{
+    width: 100%;
+    padding: 45px;
+}
+
+.direc__item {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.direc__item:last-child{
+    margin-bottom: 0;
+}
+
+.wash_ico{
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+
+}
+
+.instuct__item{
+    padding-left:10px;
+}
+  
+
+.size_img {
+    width: 100%;
+    
+}
+.size_tab {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    
+    border-collapse: collapse;
+    
+    border: 2px solid #f6efe0;
+}
+
+.tab__part2--size {
+    padding: 0;
+}
+
+td, th{
+    border: 1px solid #cac3b3;
+    
+
+}
+th{
+    text-align: center;
+    font-weight: normal;
+}
+.man_size th, .women_size th,.man_size td, .women_size td{
+    font-weight: bold;
+    background: #f6efe0;
+}
+
+.tab__part1--express {
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.logo_harly{
+    width: 100%;
+}
+
+.tab{
+    overflow: hidden;
+
+}   
