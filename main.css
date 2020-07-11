@@ -41,17 +41,26 @@ ul > li {
 }
 
 .hero {
-    height: 100vh;
-    min-height: 650px;
+    
     background: url(./images/web-ready/bg/hero.jpg) center center / cover no-repeat;
-    position: relative;
-    margin-bottom: 130px;
+    
 }   
 
+.index__hero{
+    height: 100vh;
+    min-height: 650px;
+    position: relative;
+    margin-bottom: 130px;
+    
+}
 
+.hero__header{
+        width: 1150px;
+        margin: 0 auto;
+
+}
 .header {
-    width: 1150px;
-    margin: 0 auto;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,6 +68,8 @@ ul > li {
     
 
 }
+
+
 
 .mail {
     text-decoration: none;
@@ -123,21 +134,15 @@ ul > li {
 
 }
 
-.fade-slider__item__text__po {
-    position: absolute;
-    
 
 
-    
-}
-
-.fade-slider__item--style-tshorts .fade-slider__item__text__po {
+.fade-slider__item--style-tshorts .fade-slider__text {
     top: 50%;
     left: 57%;
     transform: translate(-164%, -52%);
 }
 
-.fade-slider__item--style-games .fade-slider__item__text__po {
+.fade-slider__item--style-games .fade-slider__text {
     top: 50%;
     left: 50%;
     transform: translate(-50%, 20%);
@@ -145,13 +150,14 @@ ul > li {
 
 }
 
-.fade-slider__item--style-present .fade-slider__item__text__po {
+.fade-slider__item--style-present .fade-slider__text {
     top: 70%;
     left: 70%;
     transform: translate(-164%, -52%);
 }
 
-.fade-slider__item__text {
+.fade-slider__text {
+    position: absolute;
     font-family: "alegreya", Arial, sans-serif;
     color: #fff;
     font-size: 63px;
@@ -164,18 +170,18 @@ ul > li {
 
 }
 
-.fade-slider__item--style-games .fade-slider__item__text     {
+.fade-slider__item--style-games .fade-slider__text     {
     align-items: center;
     
 }
-.fade-slider__item--style-present .fade-slider__item__text {
+.fade-slider__item--style-present .fade-slider__text {
     align-items: center;
     font-size: 80px;
 }
 
 
 
-.fade-slider__text__world{
+.fade-slider__world{
     background: #212121;
     padding: 0px 17px;
     margin-top: -7px;   
@@ -183,15 +189,15 @@ ul > li {
 
 
 
-.fade-slider__text__world--color--yellow {
+.fade-slider__world--color--yellow {
     color: var(--yellow);
 }
 
-.fade-slider__item--style-present .fade-slider__text__world--color--yellow {
+.fade-slider__item--style-present .fade-slider__world--color--yellow {
     font-size: 58px;
 }
 
-.fade-slider__text__world:nth-child(2n) {
+.fade-slider__world:nth-child(2n) {
     margin-left: 8px;
 }
 
@@ -561,24 +567,24 @@ ul > li {
     width: 1105px;
 }
 
-.site__menu {
+.site-menu {
     margin-bottom: 100px;
 }
 
-.site__menu__section {
+.site-menu__section {
     display: flex;
     justify-content: space-between;
 
 }
 
-.site__menu__col {
+.site-menu__col {
     margin-right: 20px;
 }
 
-.site__menu__col:last-child {
+.site-menu__col:last-child {
     margin-right: 0;
 }
-.site__menu__title {
+.site-menu__title {
     font-size: 24px;    
     font-weight: bold; 
     font-family: var(--titlefont);
@@ -586,25 +592,25 @@ ul > li {
     text-transform: uppercase;
     margin-bottom: 24px;
 }
-.site__menu__item {
+.site-menu__item {
     margin-bottom: 15px;
 }
-.site__menu__link {
+.site-menu__link {
     text-decoration: none;
     font-size: 15px;
     color: #737373;
 }
-.site__menu__link:hover {
+.site-menu__link:hover {
     color: var(--red);
 }
 
-.site__menu__text {
+.site-menu__text {
     margin-bottom: 40px;
     font-size: 15px;
     color: var(--black);
     text-decoration: none;
 }
-.site__menu__text__row {
+.site-menu__text__row {
     text-decoration: none;
     color: inherit;
     margin-bottom: 5px;
@@ -679,11 +685,14 @@ margin-right: 45px;
 
 /*product*/
 
-.hero--product {
+.product__hero {
+    position: relative;
     height: 180px;
     min-height: 0;
     overflow: hidden;
     margin-bottom: 80px;
+    
+   
 }
 
 .fade-content--product {
@@ -695,16 +704,16 @@ margin-right: 45px;
 
 }
 
-.fade-slider__item__text--product {
+.fade-slider__text--product {
     font-size: 30px;
     line-height: 1.15;
 }
-.fade-slider__item--style-tshorts .fade-slider__item__text__po--product{
+.fade-slider__item--style-tshorts .fade-slider__text--product{
     top: 50%;
     left: 52%;
     transform: translate(-164%, -52%);
 }
-.header--product {
+.product__header {
     width: 1300px;
 }
 
